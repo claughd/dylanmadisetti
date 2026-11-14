@@ -9,18 +9,24 @@
   {\href{https://github.com/dmadisetti}{github.com/dmadisetti} \enspace|\enspace \href{https://linkedin.com/in/dylanmadisetti}{linkedin.com/in/dylanmadisetti}}
 
 \section{Summary}
-Senior software engineer and Mechanical Engineering PhD with 8+ years building
-software across industry and research. Owns core architecture for marimo, a
-23{,}000+ star scientific notebook project, spanning reusable Python workflows,
-caching, and agent-facing correctness tooling. Background includes corresponding-author
-simulation research, NASA C++/MPI systems, Google production NLU, and auditable LLM agent harnesses.
+Founding engineer at marimo and Mechanical Engineering PhD with 8+ years building
+software across industry and research. Primary author of marimo's new execution
+model, with extensive Python AST analysis and ownership across caching and
+researcher-facing deployment tools. Background includes corresponding-author
+simulation research, NASA C++/MPI systems, Google production NLU, and auditable
+LLM agent harnesses.
 
 \section{Engineering Experience}
-\resumeentry{CoreWeave}{2025--present}{Senior Software Engineer II --- marimo (acquired Oct. 2025)}
+\resumeentry{marimo / CoreWeave}{2024--present}{Founding Engineer, marimo; Senior Software Engineer II, CoreWeave}
 \begin{resumeitems}
-  \item Authored \href{https://github.com/marimo-team/meps/blob/main/mep-0008.md}{MEP 0008}
-    and implemented reusable-notebook architecture spanning top-level-function
-    serialization, setup-cell protections, and notebook embedding.
+  \item Primary author of marimo's new notebook execution model, spanning top-level
+    functions, setup cells, reusable imports, notebook embedding, and extensive
+    Python AST analysis and transformation.
+  \item Built marimo's Markdown notebook format and created
+    \href{https://github.com/marimo-team/quarto-marimo}{\texttt{quarto-marimo}},
+    \href{https://github.com/marimo-team/marimo-jupyter-extension}{\texttt{marimo-jupyter-extension}},
+    and \href{https://github.com/marimo-team/marimo-operator}{\texttt{marimo-operator}},
+    extending marimo into Quarto publishing, JupyterLab/JupyterHub, and Kubernetes.
   \item Designed and implemented marimo's caching stack, including persistent and
     in-memory decorators, cache introspection, custom serialization, cell-level
     cached execution, and signed cache bundles.
@@ -30,11 +36,9 @@ simulation research, NASA C++/MPI systems, Google production NLU, and auditable 
   \item Authored the specification and security boundaries and built a proof of
     concept for \href{https://molab.marimo.io}{mo lab}'s sandboxed execution on
     CoreWeave Cloud; the product launched in public preview with GPU-backed sessions.
-  \item Built a distributed-compute DAG prototype for marimo notebooks during a
-    CoreWeave hackathon.
-  \item Serve as a core maintainer of a 23{,}000+ star project (Nov. 2026): translate
-    external user reports into shipped caching and pytest fixes, review contributors,
-    publish releases, and mentor interns, junior colleagues, and SciPy participants.
+  \item Serve as a core maintainer of a 23{,}000+ star project (Nov. 2026): review
+    contributors, publish releases, and mentor interns, junior colleagues, and
+    SciPy participants.
 \end{resumeitems}
 
 \section{Agent Systems \& Evaluation}
